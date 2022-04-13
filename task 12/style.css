@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    text-transform: uppercase;
+    animation: myAnimation 6s 5;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+h1{
+  color: black;
+  font-style:italic;
+  letter-spacing: -6;
+  font-weight: 800;
+  margin: 0 20px;
+  padding-top: 30px;
+}
+span{
+    color: black;
+    font: 32px sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+@keyframes myAnimation{
+ 
+    0%{
+        background-color: yellow;
+        left: 400px;
+        top: 0px;
+    }
+    
+    25%{
+        background-color: red;
+        left: 1150px;
+        top: 100px;
+    }
+
+    50%{
+        background-color: blue;
+        left: 500px;
+        top: 0px;
+    }
+
+    75%{
+        background-color: blueviolet;
+        left: 0px;
+        top: 407px;
+    }
+
+    100%{
+        background-color: crimson;
+        left: 400px;
+        top: 0px;
+    }
+ }
